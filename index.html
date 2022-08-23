@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memory.css">
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="timer">60</div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="container-game">
+        <div class="game-block" data-tec='C++'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/1200px-ISO_C++_Logo.svg.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='C++'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/1200px-ISO_C++_Logo.svg.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='C#'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/CSHARP_3.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='C#'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/CSHARP_3.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Angular'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/ANGULAR.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Angular'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/ANGULAR.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='MON'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/MONGODB.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='MON'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/MONGODB.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='MYSQL'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/MYSQL.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='MYSQL'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/MYSQL.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='PHP'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/PHP_2.jpeg">
+            </div>
+        </div>
+        <div class="game-block" data-tec='PHP'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/PHP_2.jpeg">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Python'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/PYTHON_2.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Python'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/PYTHON_2.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Veu'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/VEU.JS.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='Veu'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/VEU.JS.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='CSS'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/CSS_1.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='CSS'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/CSS_1.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='HTML'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/HTML.png">
+            </div>
+        </div>
+        <div class="game-block" data-tec='HTML'>
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./Imges/HTML.png">
+            </div>
+        </div>
+    </div>
+    <div class="rate">
+        <span>
+            Higt Rate: <span class="name-rate"></span>
+            <span class="num-rate"><span class="num"></span>Tries</span>
+        </span>
+    </div>
+
+    <div class="win">
+        <h1>Your Win </h1>
+        <button class="but">New Game</button>
+    </div>
+
+    <div class="game-over">
+        <h1>Game Over</h1>
+        <span class="name">Good </span>
+        <span class="try">Your Tries Is: </span>
+        <button class="but">Try Again</button>
+    </div>
+
+    <audio src="./POP/background.mp3" id="background"></audio>
+    <audio src="./POP/7.wav" id="success" preload="auto"></audio>
+    <audio src="./POP/8.wav" id="fail" preload="auto"></audio>
+    <audio src="./POP/3.mp3" id="endgame" preload="auto"></audio>
+
+
+    <script src="memory.js"></script>
+</body>
+</html>
